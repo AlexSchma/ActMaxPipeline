@@ -1,0 +1,8 @@
+,0
+n_ressidual_blocks,4.0
+out_channels,122.0
+kernel_size,6.0
+max_pooling_kernel_size,4.0
+dropout_rate,0.5
+ffn_size_1,128.0
+ffn_size_2,64.0
