@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Define the general input and output directories
-input_dir="results_DO8_108_endmodel.pth"
-output_dir="tomtom_results_DO8_108_endmodel.pth_euc_q_value"
+directory_name="Jordi_ActMax"
+input_dir="Data/Results/${directory_name}/MEME_Results"
+output_dir="Data/Results/${directory_name}/Tomtom_Results"
 
 # Define the ARABIDOPSIS DNA database path (adjust this path to where your ARABIDOPSIS database is located)
-database_path1="ARABD/ArabidopsisDAPv1.meme"
-database_path2="ARABD/ArabidopsisPBM_20140210.meme"
+database_path1="Data/ARABD/ArabidopsisDAPv1.meme"
+database_path2="Data/ARABD/ArabidopsisPBM_20140210.meme"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"

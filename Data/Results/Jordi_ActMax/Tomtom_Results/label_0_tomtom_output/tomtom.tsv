@@ -1,0 +1,5 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+
+# Tomtom (Motif Comparison Tool): Version 5.5.6 compiled on Aug  9 2024 at 02:23:27
+# The format of this file is described at http://localhost:8080/meme_5.5.6/doc/tomtom-output-format.html.
+# tomtom -o Data/Results/Jordi_ActMax/Tomtom_Results/label_0_tomtom_output -eps -png -thresh 0.05 -dist ed Data/Results/Jordi_ActMax/MEME_Results/label_0_meme_output/meme.html Data/ARABD/ArabidopsisDAPv1.meme Data/ARABD/ArabidopsisPBM_20140210.meme

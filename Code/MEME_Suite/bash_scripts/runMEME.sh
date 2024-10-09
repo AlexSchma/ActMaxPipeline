@@ -1,12 +1,12 @@
 #!/bin/bash
 
-directory_name="DO8_108_endmodel2"
+directory_name="Jordi_ActMax"
 
 # Directory containing your FASTA files
-fasta_directory="Code/Alex/Activation_Maximization_FunProse/generated_sequences/${directory_name}"
+fasta_directory="Data/Results/${directory_name}"
 
 # Output directory for MEME results
-output_directory="Code/Alex/MeMe/results_${directory_name}"
+output_directory="Data/Results/${directory_name}/MEME_Results"
 
 # Create output directory if it doesn't exist
 mkdir -p "${output_directory}"
@@ -19,6 +19,6 @@ do
     base_name=$(basename "$fasta_file" .fasta)
 
     # Run MEME command with the 'anr' model for any number of repetitions
-    meme "$fasta_file" -dna -mod anr -nmotifs 3 -minw 6 -maxw 12 -o "${output_directory}/${base_name}_meme_output"
+    meme "$fasta_file" -dna -mod anr -nmotifs 3 -minw 6 -maxw 8 -o "${output_directory}/${base_name}_meme_output"
     echo "Completed: ${output_directory}/${base_name}_meme_output"
 done
