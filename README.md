@@ -14,8 +14,7 @@ if necessary change the get model function and other parameters (max_iter, early
 if wished change the optimization objectives.
 if wished change advanced parameters (additional entropy pennalty i.e.) at the bottom of the script
 
-run the script
-
+run the script via python -m Code.ActMax.generate_seqs
 ## 2nd & 3rd
 MEME suite via docker desktop:
 https://meme-suite.org/meme/doc/install.html?man_type=web#quick_docker
